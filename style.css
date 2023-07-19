@@ -1,0 +1,70 @@
+/* all shared styles here */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* navbar styles starts here */
+.nav-container{
+    min-height: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+.nav-logo h4{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+}
+.g{
+    color: #FF42A5;
+}
+.nav-menus{
+    width: 50%;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menus a{
+    text-decoration: none;
+    
+}
+.follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+}
+/* banner styles starts here */
+
+
+
+
+
+
+/* Media Query for Responsive */
+@media screen and (max-width: 425px) {
+    .nav-container, .nav-menus{
+        flex-direction: column;
+    }
+    .nav-menus{
+        margin-top: 20px;
+        gap: 30px;
+    }
+}
