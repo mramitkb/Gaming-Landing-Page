@@ -126,7 +126,6 @@
 /* gamer styles starts here */
 
 .gamer-container{
-    border: 1px solid black;
     max-width: 1440px;
     margin: 0 auto;
     min-height: 50px;
@@ -138,14 +137,12 @@
 }
 .gamer-img{
     width: 50%;
-    border: 1px solid rebeccapurple;
 }
 .gamer-img img{
     width: 100%;
 }
 .gamer-info{
     width: 50%;
-    border: 1px solid blue;
     align-items: center;
     text-align: center;
 }
