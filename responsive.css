@@ -1,4 +1,6 @@
 /* Media Query for Responsive */
+
+/* mobile devices */
 @media screen and (max-width: 425px) {
     .nav-container{
         flex-direction: column;
@@ -134,6 +136,7 @@
 }
 
 /* Tablet Devices */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
      .nav-container{
         flex-direction: column;
@@ -160,6 +163,7 @@
     }
     .gamer-container{
         flex-direction: column;
+        height: auto;
     }
     .gamer-img{
         width: 100%;
@@ -171,16 +175,11 @@
     .our{
         margin-top: 50px;
     }
-    .card-container{
-    }
     .card-container h2{
         padding-top: 50px;
         font-size: 25px;
         padding-left: 20px;
         padding-right: 20px;
-    }
-    .card-container p{
-        padding: 10px 30px;
     }
     .all-cards{
         flex-direction: column;
