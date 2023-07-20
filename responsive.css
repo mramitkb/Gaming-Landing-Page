@@ -1,0 +1,134 @@
+/* Media Query for Responsive */
+@media screen and (max-width: 425px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-menus{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        background-size: 100%;
+    }
+    .banner-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .banner-img{
+        width: 100%;
+        padding: 20px;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-img{
+        width: 100%;
+    }
+    .gamer-info{
+        width: 100%;
+        padding: 20px;
+    }
+    .our{
+        margin-top: 50px;
+    }
+    .card-container{
+        margin-top: 150px;
+    }
+    .card-container h2{
+        padding-top: 50px;
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .card-container p{
+        padding: 10px 30px;
+    }
+    .all-cards{
+        flex-direction: column;
+    }
+    .all-cards div{
+        margin-bottom: 120px;
+    }
+    .all-cards div> p{
+        font-size: 16px;
+    }
+    .play-container{
+        flex-direction: column;
+    }
+    .play-img{
+        height: 350px;
+        width: 300px;
+        margin-bottom: 180px;
+    }
+    .play-img img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .play-img .photo{
+        height: 150px;
+        width: 150px;
+        margin-bottom: 180px;
+        position: relative;
+        right: 60px;
+        bottom: 100px;
+    }
+    .photo img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .career-container{
+        flex-direction: column;
+    }
+    .career-info{
+        padding: 20px 0px ;
+        width: 100%;
+    }
+    .career-info h2{
+        text-align: center;
+    }
+    .career-info p{
+        padding: 10px;
+    }
+    .career-info > .un-order{
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .career-info button{
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin-right: 100px;
+    }
+    .career-img{
+        width: 100%;
+    }
+    .tags-five, .tags-four{
+        flex-direction: column;
+    }
+    .footer-container{
+    }
+    .footer-logo{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .services{
+        flex-direction: column;
+        text-align: center;
+    }
+    .icons{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .icons img{
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .policy{
+        flex-direction: column;
+        text-align: center;
+    }
+}
