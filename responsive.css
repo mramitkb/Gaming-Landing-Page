@@ -108,12 +108,11 @@
     .tags-five, .tags-four{
         flex-direction: column;
     }
-    .footer-container{
-
+    .tags{
+        height: auto;
     }
     .footer-logo{
         flex-direction: column;
-        margin-top: 50px;
     }
     .services{
         flex-direction: column;
@@ -243,15 +242,14 @@
     .career-img{
         width: 100%;
     }
+    .tags{
+        height: auto;
+    }
     .tags-five, .tags-four{
         flex-direction: column;
     }
-    .footer-container{
-
-    }
     .footer-logo{
         flex-direction: column;
-        margin-top: 50px;
     }
     .services{
         flex-direction: column;
