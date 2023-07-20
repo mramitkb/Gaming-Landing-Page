@@ -538,4 +538,7 @@
     .career-img{
         width: 100%;
     }
+    .tags-five, .tags-four{
+        flex-direction: column;
+    }
 }
