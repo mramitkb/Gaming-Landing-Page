@@ -386,6 +386,7 @@
     border-radius: 50px;
     background: #FFF;
     cursor: pointer;
+    padding: 10px;
 }
 .five:hover{
     border: 1px solid #F948B2;
@@ -408,6 +409,46 @@
 }
 
 /* footer styles starts from here */
+
+.footer-container{
+    background: #0B0223;
+    height: 630px;
+}
+.footer-logo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.footer-logo h4{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.services{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 50px; 
+}
+.services li{
+    list-style: none;
+}
+.services li> a{
+    text-decoration: none;
+    color: white;
+}
+.icons {
+    text-align: center;
+    padding-top: 30px;
+}
+.icons img{
+    margin: 20px;
+    cursor: pointer;
+}
 
 
 
