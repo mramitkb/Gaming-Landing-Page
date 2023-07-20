@@ -351,6 +351,11 @@
     text-align: center;
     margin-top: 140px;
     margin-left: 190px;
+    cursor: pointer;
+}
+.career-info button:hover{
+    background-color: gainsboro;
+    color: black;
 }
 .career-img{
     width: 50%;
@@ -419,6 +424,11 @@
     gap: 10px;
     justify-content: center;
     padding-top: 100px;
+    align-items: center;
+}
+.footer-logo img{
+    height: 40px;
+    width: 80px;
 }
 .footer-logo h4{
     font-size: 45px;
@@ -448,6 +458,28 @@
 .icons img{
     margin: 20px;
     cursor: pointer;
+}
+.policy{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    padding-top: 50px;
+    gap: 60px;
+}
+.policy li{
+    list-style: none;   
+}
+.policy li> a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer-container small{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
 }
 
 
